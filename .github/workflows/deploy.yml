@@ -32,4 +32,4 @@ jobs:
       - name: install surge 
         run: npm install -g surge
       - name: url
-        run: surge ./pana1.surge.sh --token ${{secret.}}
+        run: surge ./pana1.surge.sh --token ${{secret.SURGE_TOKEN}}
